@@ -1,7 +1,7 @@
 /* spacing */
 
 table {
-    table-layout: fixed;
+    /* table-layout: fixed; */
     width: 100%;
     border-collapse: collapse;
     border: 3px solid purple;
@@ -24,5 +24,9 @@ table {
   }
   
   th, td {
-    padding: 20px;
+    padding: 10px;
+  }
+
+  tr {
+    font-size: 2em;
   }
